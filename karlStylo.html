@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karlimarilarraza</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@600&family=Courgette&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/45a24ae8ac.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+        <header id="inicio"> 
+            <nav id="navegacion-contenedor">
+                <div id="logotipo">
+                    <!-- <a id="logo" href="#"><img src="imagen/logotipo.png" alt=""></a> -->
+                    <h2><span>K</span>arly's <span>B</span>eauty</h2>
+                </div>
+                <ul id="nav_items">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Quienes Somos</a></li>
+                    <li><a href="#ofertas">Ofertas</a></li>
+                    <li><a href="#contacto">Encuentranos</a></li>
+                    <li><a href="#" id="open_modal">Contactos</a></li>
+                </ul>
+                <div class="amburguer__menu">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </nav>
+
+            <div class="banner">
+                <img src="imagen/Banner Frete Grátis Loja Virtual Multiuso Moderno Gradiente Rosa Azul.png" alt="">
+
+            </div>
+        </header>
+
+        
+    <main class="contenedor" >
+
+        <section class="modal-contenedor">
+            <div id="fade" class="hide">
+                <div id="modal" class="hide">
+                    <div class="modal_header">
+                        <h2>Cita Online</h2>
+                        <button id="close_modal">X</button>
+                    </div>
+                    <div class="modal_body">
+                        <form>
+                            <label for="nombre">Nombre(s):</label>
+                            <input type="text" id="nombre" placeholder="Nombre Completo">
+                            <label for="apellidos">Apellidos:</label>
+                            <input type="text" id="apellidos" placeholder="Apellidos">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Direccion email">
+                            <label for="tel">Telefono:</label>
+                            <input type="tel" placeholder="(xx) xxxxx-xxxx">
+                            <!-- <label>Tipo de Cabello</label> -->
+                            <select name="tipo_cabello">
+                                <option value="" required="required">Escoja un tipo de la lista</option>
+                                <option value="liso">Liso Corto</option>
+                                <option value="liso">Liso Largo</option>
+                                <option value="crespo">Crespo Corto</option>
+                                <option value="crespo">Crespo Largo</option>
+                            </select>
+
+                            <label for="mensaje"></label>
+                            <textarea name="mensaje" id="mensaje" cols="30" rows="4" placeholder="Escriva su mensaje"></textarea>
+
+                            <button id="btn_enviar" type="reset">Agendamiento</button>
+
+                            <h2 class="txt_enviado" id="txt__enviado">Gracias por escribirnos. En breve entramos en contacto.</h2>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="h1">
+                <h1>Ven y conocenos, disponemos de un amplío horario que se adaptara  tu forma de vida
+
+                </h1>
+            </div>
+            <div id="nosotros"></div>
+            <article class="componente-card">  
+                <div class="img-component">
+                    <img src="imagen/1.jpg" alt="niña con trensa">
+                </div>
+                <div class="tema1">
+                    <h2>Quienes somos</h2>
+                    <p>Enfocamos nuestra experiencia en aconsejar estilos, y dar soluciones para poder acercarnos en plenitud a tu demanda y bienestar. Te atenderá un personal profesional preparado y entregado, que dispone de la formación necesaria para: crear, innovar, cambiar y cuidar tu IMAGEN.</p>
+                </div>
+            </article>
+            <article class="componente-card">  
+                <div class="img-component">
+                    <img src="imagen/2.jpg" alt="niña con trensa">
+                </div>
+                <div class="tema1">
+                    <h2>Servicios</h2>
+                    <p>En nuestros salon ofrecemos un trato profesional y personalizado.</p>
+                    <p>Asesoramos sobre tendencias y estilismo.</p>
+                    <p>Trataremos tu cuero cabelludo, un cuero cabelludo sano, genera un cabello sano.</p>
+                    <p>Te recomendaremos los últimos  diseños de temporada, cada estación del año tu cabello necesitara cuidados.</p>
+                    
+                </div>
+            </article>
+            
+            
+            <article class="ofertas__contenedor">
+                <div class="ofertas_title" id="ofertas">
+                    <h2>Ofertas</h2>
+                </div>
+
+                <div class="box_cards">
+                    <div class="card">
+                        <h3 class="card_title">
+                            Trenzas NAGO
+                        </h3>
+                        <div class="card_img">
+                            <img src="imagen/ofertas-1.jpeg" alt="">
+                        </div>
+                        <div class="card_description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ullam!</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3 class="card_title">
+                            Tenzas NAGO
+                        </h3>
+                        <div class="card_img">
+                            <img src="imagen/3.jpg" alt="">
+                        </div>
+                        <div class="card_description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ullam!</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3 class="card_title">
+                            Tenzas NAGO
+                        </h3>
+                        <div class="card_img">
+                            <img src="imagen/4.jpg" alt="">
+                        </div>
+                        <div class="card_description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ullam!</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3 class="card_title">
+                            Tenzas NAGO
+                        </h3>
+                        <div class="card_img">
+                            <img src="imagen/ofertas-2.jpeg" alt="">
+                        </div>
+                        <div class="card_description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ullam!</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3 class="card_title">
+                            Tenzas NAGO
+                        </h3>
+                        <div class="card_img">
+                            <img src="imagen/ofertas-3.jpeg" alt="">
+                        </div>
+                        <div class="card_description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ullam!</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3 class="card_title">
+                            Tenzas NAGO
+                        </h3>
+                        <div class="card_img">
+                            <img src="imagen/ofertas-4.jpeg" alt="">
+                        </div>
+                        <div class="card_description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ullam!</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3 class="card_title">
+                            Tenzas NAGO
+                        </h3>
+                        <div class="card_img">
+                            <img src="imagen/ofertas-5.jpeg" alt="">
+                        </div>
+                        <div class="card_description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ullam!</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3 class="card_title">
+                            Tenzas NAGO
+                        </h3>
+                        <div class="card_img">
+                            <img src="imagen/ofertas-6.jpeg" alt="">
+                        </div>
+                        <div class="card_description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ullam!</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3 class="card_title">
+                            Tenzas NAGO
+                        </h3>
+                        <div class="card_img">
+                            <img src="imagen/ofertas-7.jpeg" alt="">
+                        </div>
+                        <div class="card_description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ullam!</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3 class="card_title">
+                            Tenzas NAGO
+                        </h3>
+                        <div class="card_img">
+                            <img src="imagen/ofertas-8.jpeg" alt="">
+                        </div>
+                        <div class="card_description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ullam!</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3 class="card_title">
+                            Tenzas NAGO
+                        </h3>
+                        <div class="card_img">
+                            <img src="imagen/ofertas-9.jpg" alt="">
+                        </div>
+                        <div class="card_description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ullam!</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3 class="card_title">
+                            Tenzas NAGO
+                        </h3>
+                        <div class="card_img">
+                            <img src="imagen/ofertas-10.jpg" alt="">
+                        </div>
+                        <div class="card_description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ullam!</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            
+            
+
+            <div id="contacto">
+                <div class="direccion">
+                    <div class="direccion__text">
+                        <div class="direccion__text__subtitle">
+                            <h2 class="subtitle">Encuentranos en...</h2>
+                        </div>
+                    <div class="direccion__text__description">
+                        <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+                        <p>Rua Robrú, 237</p>
+                        <p>JD Crristine Alice</p>
+                        <p>Guarulhos/SP</p>
+                    </div>
+                    </div>
+                </div>
+
+                    <div class="mapa">
+                        <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+                            <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
+                            var setting = {"query":"Rua Robrú, 237 - Jardim Cristin Alice, Guarulhos - SP, Brasil", "width": 800,"height":400,"satellite":false,"zoom":13,"placeId":"ChIJmb3aVt70zpQRdj3s3KVyQfA","cid":"0xf04172a5dcec3d76","coords":[-23.4342166,-46.5333943],"lang":"pt","queryString":"Rua Robrú, 237 - Jardim Cristin Alice, Guarulhos - SP, Brasil","centerCoord":[-23.4342166,-46.5333943],"id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"943825"};
+                            var d = document;
+                            var s = d.createElement('script');
+                            s.src = 'https://1map.com/js/script-for-user.js?embed_id=943825';
+                            s.async = true;
+                            s.onload = function (e) {
+                              window.OneMap.initMap(setting)
+                            };
+                            var to = d.getElementsByTagName('script')[0];
+                            to.parentNode.insertBefore(s, to);
+                          })();</script><a href="https://1map.com/pt/map-embed">1 Map</a></div>
+                    </div>
+                    <div class="iconos--componente">
+                        <div class="iconos--componente-subtitle">
+                            <h2 class="subtitle">Siguenos en nuestras redes sociales</h2>
+                        </div>
+                        <div class="iconos">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="pie_pagina">
+        <div class="grupo_1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="imagen/logotipo.png" alt="logo">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, quidem.</P>
+                <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, quidem.</P>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red_social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-whatsapp"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo_2">
+            <small>&copy; 2023 <b>Karly's</b> - Todos los Derechos Reservados</small>
+        </div>
+    </footer>
+
+
+
+    <script src="JS/main.js"></script>
+</body>
+
+</html>
